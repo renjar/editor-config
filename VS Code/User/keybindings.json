@@ -1,0 +1,9 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+    { "key": "ctrl+shift+/",           "command": "editor.action.blockComment",
+                                     "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+shift+down",        "command": "editor.action.copyLinesDownAction",
+                                     "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+shift+up",          "command": "editor.action.copyLinesUpAction",
+                                        "when": "editorTextFocus && !editorReadonly" }
+]

@@ -1,0 +1,19 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.wrappingColumn": 0,
+    "editor.renderWhitespace": true,
+    "editor.renderIndentGuides": true,
+
+    "window.openFilesInNewWindow": false,
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+    "emmet.syntaxProfiles": {
+        "javascript": "html"
+    },
+    "explorer.openEditors.visible": 24,
+    // fixed: property declarations can only be userd in a .ts file
+    "javascript.validate.enable": false,
+    "git.path": "C:\\Users\\wegooooo\\AppData\\Local\\Programs\\Git\\bin\\git.exe",
+    "git.autofetch": false
+}
