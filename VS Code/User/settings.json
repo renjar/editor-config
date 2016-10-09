@@ -1,19 +1,46 @@
 // 将设置放入此文件中以覆盖默认设置
 {
+
+// 编辑器
+
+    "editor.rulers": [80],
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.wrappingColumn": 0,
     "editor.renderWhitespace": true,
     "editor.renderIndentGuides": true,
 
-    "window.openFilesInNewWindow": false,
-    "files.eol": "\n",
-    "files.trimTrailingWhitespace": true,
+
+// Emmet
+
     "emmet.syntaxProfiles": {
         "javascript": "html"
     },
-    "explorer.openEditors.visible": 24,
+
+
+// 工作台
+
+    "workbench.editor.enablePreview": true,
+
+
+// 窗口
+
+    "window.openFilesInNewWindow": false,
+
+
+// 文件
+
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+
+
+// TypeScript
+
     // fixed: property declarations can only be userd in a .ts file
     "javascript.validate.enable": false,
-    "git.path": "C:\\Users\\wegooooo\\AppData\\Local\\Programs\\Git\\bin\\git.exe",
-    "git.autofetch": false
+
+
+// Bookmarks Configuration
+
+    "bookmarks.useStickyBookmarks": true
+
 }
