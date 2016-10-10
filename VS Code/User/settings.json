@@ -19,7 +19,7 @@
 
 // 工作台
 
-    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
 
 
 // 窗口
