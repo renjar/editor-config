@@ -6,7 +6,7 @@
     "editor.rulers": [80],
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.wrappingColumn": 0,
-    "editor.renderWhitespace": true,
+    "editor.renderWhitespace": "boundary",
     "editor.renderIndentGuides": true,
 
 
