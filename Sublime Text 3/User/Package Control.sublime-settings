@@ -1,32 +1,24 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"Babel",
-		"BracketHighlighter",
-		"Color Highlighter",
-		"CSScomb",
-		"DocBlockr",
-		"EditorConfig",
-		"Emmet",
-		"jQuery",
-		"JsFormat",
-		"Nodejs",
-		"Package Control",
-		"Sass",
-		"Seti_UI",
-		"SideBarEnhancements",
-		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
-		"SublimeLinter-contrib-scss-lint",
-		"SublimeLinter-csslint",
-		"SublimeLinter-jscs",
-		"SublimeLinter-jshint",
-		"SublimeLinter-jsxhint",
-		"SublimeServer",
-		"Terminal"
-	]
+    "bootstrapped": true,
+    "in_process_packages":
+    [
+    ],
+    "installed_packages":
+    [
+        "Babel",
+        "BracketHighlighter",
+        "Color Highlighter",
+        "DocBlockr",
+        "EditorConfig",
+        "Emmet",
+        "jQuery",
+        "JsFormat",
+        "Nodejs",
+        "Package Control",
+        "Sass",
+        "SideBarEnhancements",
+        "SublimeLinter",
+        "SublimeLinter-contrib-eslint",
+        "Terminal"
+    ]
 }
