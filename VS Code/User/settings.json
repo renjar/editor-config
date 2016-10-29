@@ -1,33 +1,40 @@
-// 将设置放入此文件中以覆盖默认设置
+// See http://go.microsoft.com/fwlink/?LinkId=808995 for the most commonly used settings.
 {
 
-// 编辑器
+// Editor
 
     "editor.rulers": [80],
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.detectIndentation":false,
     "editor.wrappingColumn": 0,
+    "editor.wrappingIndent": "indent",
     "editor.renderWhitespace": "boundary",
+    "editor.renderControlCharacters": true,
     "editor.renderIndentGuides": true,
+    "diffEditor.ignoreTrimWhitespace": false,
 
 
 // Emmet
 
     "emmet.syntaxProfiles": {
-        "javascript": "html"
+        "javascript": "html",
+        "html": {
+            "self_closing_tag": "xhtml"
+        }
     },
 
 
-// 工作台
+// Workbench
 
     "workbench.editor.enablePreviewFromQuickOpen": false,
 
 
-// 窗口
+// Window
 
     "window.openFilesInNewWindow": false,
 
 
-// 文件
+// Files
 
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
@@ -35,8 +42,7 @@
 
 // TypeScript
 
-    // fixed: property declarations can only be userd in a .ts file
-    "javascript.validate.enable": false,
+    "typescript.useCodeSnippetsOnMethodSuggest": true,
 
 
 // Bookmarks Configuration
