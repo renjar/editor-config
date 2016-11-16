@@ -37,8 +37,16 @@
 
 // Files
 
+    "files.associations": {
+        "*.jsp": "java"
+    },
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
+
+
+// Git
+
+    "git.confirmSync": false,
 
 
 // TypeScript
