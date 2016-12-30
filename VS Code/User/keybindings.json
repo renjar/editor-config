@@ -1,9 +1,66 @@
 // Place your key bindings in this file to overwrite the defaults
-[
-    { "key": "ctrl+shift+/",           "command": "editor.action.blockComment",
-                                     "when": "editorTextFocus && !editorReadonly" },
-    { "key": "ctrl+shift+down",        "command": "editor.action.copyLinesDownAction",
-                                     "when": "editorTextFocus && !editorReadonly" },
-    { "key": "ctrl+shift+up",          "command": "editor.action.copyLinesUpAction",
-                                        "when": "editorTextFocus && !editorReadonly" }
-]
+[{
+    "key": "ctrl+k p",
+    "command": "workbench.action.files.copyPathOfActiveFile"
+}, {
+    "key": "ctrl+k r",
+    "command": "workbench.action.files.revealActiveFileInWindows"
+}, {
+    "key": "f12",
+    "command": "workbench.action.toggleDevTools"
+}, {
+    "key": "f9",
+    "command": "editor.action.sortLinesAscending",
+    "when": "editorFocus"
+}, {
+    "key": "ctrl+f9",
+    "command": "editor.action.sortLinesDescending",
+    "when": "editorFocus"
+}, {
+    "key": "ctrl+k ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+}, {
+    "key": "ctrl+shift+r",
+    "command": "workbench.action.showAllSymbols"
+}, {
+    "key": "ctrl+r",
+    "command": "workbench.action.gotoSymbol"
+}, {
+    "key": "ctrl+;",
+    "command": "workbench.action.gotoSymbol"
+}, {
+    "key": "ctrl+shift+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus"
+}, {
+    "key": "ctrl+shift+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus"
+}, {
+    "key": "ctrl+shift+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorFocus"
+}, {
+    "key": "ctrl+l",
+    "command": "expandLineSelection",
+    "when": "editorFocus"
+}, {
+    "key": "ctrl+m",
+    "command": "editor.action.jumpToBracket",
+    "when": "editorFocus"
+}, {
+    "key": "ctrl+shift+/",
+    "command": "editor.action.blockComment",
+    "when": "editorFocus"
+}, {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+    "when": "editorTextFocus"
+}, {
+    "key": "alt+f3",
+    "command": "editor.action.selectHighlights",
+    "when": "editorFocus"
+}, {
+    "key": "shift+f11",
+    "command": "workbench.action.toggleZenMode"
+}]
