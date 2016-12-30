@@ -12,7 +12,8 @@
     "editor.renderWhitespace": "boundary",
     "editor.renderControlCharacters": true,
     "editor.renderIndentGuides": true,
-    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.renderLineHighlight": "all",
+    // "diffEditor.ignoreTrimWhitespace": false,
 
 
 // Emmet
@@ -33,6 +34,7 @@
 // Window
 
     "window.openFilesInNewWindow": false,
+    "window.showFullPath": true,
 
 
 // Files
@@ -41,7 +43,9 @@
         "*.jsp": "java"
     },
     "files.eol": "\n",
-    "files.trimTrailingWhitespace": true,
+    // "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    // "files.hotExit": false,
 
 
 // Git
@@ -56,6 +60,11 @@
 
 // Bookmarks Configuration
 
-    "bookmarks.useStickyBookmarks": true
+    // "bookmarks.saveBookmarksBetweenSessions": true,
+    "bookmarks.useStickyBookmarks": true,
 
+
+// Document This configuration
+
+    "docthis.includeDescriptionTag": true
 }
