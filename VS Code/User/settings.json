@@ -40,7 +40,8 @@
 // Files
 
     "files.associations": {
-        "*.jsp": "java"
+        "*.jsp": "java",
+        "*.sublime-settings": "json"
     },
     "files.eol": "\n",
     // "files.trimTrailingWhitespace": true,
